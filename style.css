@@ -1,16 +1,27 @@
-/*
-Template Name: NewsFeed
-Template URI: http://www.wpfreeware.com/newsfeed-ultra-responsive-news-magazine-theme/
-Author: WpFreeware
-Author URI: http://www.wpfreeware.com
-Description: A Pro bootstrap html5 css3 responsive news magazine website template
-Version: 1.0 
-License: GPL 2.0 or Later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+@font-face {
+    font-family: pangram;
+    src: url(../fonts/pangram/Pangram-ExtraLight.otf);
+}
 
-*/
-
-
+.container{
+    font-family: pangram;
+}
+.my-font{
+    font-family: pangram;
+}
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(img/xpic.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 body {
@@ -165,6 +176,9 @@ img:hover{
        -o-transition: all 0.5s; /* 10.5 < Op < 12.1 */
           transition: all 0.5s; /* IE 10, Ch 26+, Fx 16+, Op 12*/
 }
+
+
+
 /* Preloader */
 #preloader {
   position: fixed;
@@ -182,7 +196,7 @@ img:hover{
   position:absolute;
   left:50%; /* centers the loading animation horizontally one the screen */
   top:50%; /* centers the loading animation vertically one the screen */
-  background-image:url(img/status.gif); /* path to your loading animation */
+  background-image:url(img/xpic.gif); /* path to your loading animation */
   background-repeat:no-repeat;
   background-position:center;
   margin:-100px 0 0 -100px; /* is width and height divided by two */

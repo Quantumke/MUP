@@ -1,6 +1,14 @@
 @font-face {
     font-family: pangram;
-    src: url(../fonts/pangram/Pangram-ExtraLight.otf);
+    src: url(../fonts/pangram/Pangram-Regular.otf);
+}
+@font-face {
+    font-family:pangram-thin;
+    src: url(../fonts/pangram/Pangram-Light.otf);
+}
+@font-face {
+    font-family:pangram-regular;
+    src: url(../fonts/pangram/Pangram-Regular.otf);
 }
 
 .container{
@@ -236,7 +244,7 @@ img:hover{
   margin-top: 20px;
 }
 .header_top {
-  background-color: #2c2c2c;
+  background-color: #ff677c;
   display: inline;
   float: left;
   padding: 0 30px;
@@ -255,8 +263,8 @@ img:hover{
 }
 .top_nav li a{
   display: inline-block;
-  border-right: 1px solid #333333;
-  color: #fff;
+  border-right: 1px solid #67c8ff;
+  color: #ffea67;
   font-size: 11px;
   font-weight: bold;
   padding: 20px 15px;
@@ -266,7 +274,7 @@ img:hover{
   transition: all 0.5s;
 }
 .top_nav li a:hover{
-  background-color: #d083cf;
+  background-color: #67C8FF;
 }
 .header_top_right{
   float: left;
@@ -306,7 +314,7 @@ img:hover{
   font-family: 'Varela', sans-serif; 
 }
 .logo img{
-  max-width: 100%;
+  max-width: 40%;
 }
 .logo img:hover{
   opacity: 1;
@@ -335,9 +343,9 @@ img:hover{
   border-radius: 0;
 }
 .navbar-inverse .navbar-nav > li > a {
-  border-left: 1px solid #383838;
-  color: #ddd;
-  font-family: 'Oswald', sans-serif;
+  border-left: 1px solid #67c8ff;
+  color: #ffea67;
+  font-family:pangram-regular;
   display: inline-block;
   height: 50px;
   line-height: 50px;
@@ -403,10 +411,11 @@ img:hover{
   padding-bottom: 20px;
 }
 .latest_newsarea{
+     font-family: pangram-thin;
   float: left;
   display: inline;
   width: 100%;
-  background-color: #000;
+  background-color: #ff677c;
   position: relative;
 }
 
@@ -414,7 +423,7 @@ img:hover{
 		
 .latest_newsarea span {
   color: #fff;
-  font-family: Oswald,sans-serif;
+  font-family: pangram-thin;
   font-size: 15px;
   left: 0;
   line-height: 1.8em;
@@ -612,7 +621,7 @@ img:hover{
   width: 100%;
 }
 .latest_post>h2{
-  background: none repeat scroll 0 0 #151515;
+  background: none repeat scroll 0 0 #ff677c;
   color: #fff;
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
@@ -687,7 +696,7 @@ img:hover{
   margin-bottom: 20px;
 }
 .single_post_content>h2{
-  background: none repeat scroll 0 0 #151515;
+  background: none repeat scroll 0 0 #ff677c;
   color: #fff;
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
@@ -995,7 +1004,7 @@ figure.effect-layla:hover img {
   margin-bottom: 20px;
 }
 .single_sidebar>h2{
-  background: none repeat scroll 0 0 #151515;
+  background: none repeat scroll 0 0 #ff677c;
   color: #fff;
   font-family: "Oswald",sans-serif;
   font-size: 18px;
@@ -1035,7 +1044,7 @@ figure.effect-layla:hover img {
   margin-top: 10px;
 }
 .nav-tabs {
-  background: none repeat scroll 0 0 #333;
+  background: none repeat scroll 0 0 #ff677c;
   border-bottom: none;
 }
 .nav-tabs > li {
